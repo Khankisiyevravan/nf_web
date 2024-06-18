@@ -18,7 +18,11 @@ const Cover = () => {
           <div className="slides" style={{ '--img': `url(/assets/images/cover/kharkov.jpeg)` }}>
             <div className="content">
               <h2>Ukraynada təhsil</h2>
-              <p>Xarkovda tehsil cox yaxsidir</p>
+              <ul>
+                <li> <i class="fa-solid fa-check"></i> Online tədris</li>
+                <li><i class="fa-solid fa-check"></i> Tanınan diplom</li>
+                <li><i class="fa-solid fa-check"></i> Hərbi möhlət</li>
+              </ul>
             </div>
           </div>
           <div className="slides" style={{ '--img': `url(/assets/images/cover/istanbul.webp)` }}>
